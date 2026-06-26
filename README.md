@@ -34,4 +34,8 @@ Basic-ML-Model/
 ├── docs/
 ├── notebooks/
 ├── README.md
+<<<<<<< HEAD
 └── requirements.txt
+=======
+└── requirements.txt
+>>>>>>> 4f16a20 (Added README and requirements)
