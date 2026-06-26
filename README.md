@@ -1,95 +1,211 @@
-Basic Machine Learning Model
-Titanic Survival Prediction using Logistic Regression
-Student Details
+# 🚢 Titanic Survival Prediction using Machine Learning
 
-Name: Raunak Kumari Gupta
-Branch: B.Tech CSE (AI & ML)
+<div align="center">
 
-Objective
+### **Predicting Passenger Survival with Logistic Regression**
 
-The objective of this project is to build a Machine Learning classification model using Logistic Regression to predict whether a passenger survived the Titanic disaster.
+<img src="https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange?style=for-the-badge&logo=scikitlearn"/>
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas"/>
+<img src="https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy"/>
+<img src="https://img.shields.io/badge/Matplotlib-Visualization-red?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-Visualization-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Accuracy-73.18%25-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"/>
 
-Dataset
+---
 
-Dataset Used: Titanic Dataset
+### 🌟 End-to-End Machine Learning Classification Project
 
-The dataset contains passenger information such as:
+Predicting the survival of Titanic passengers using **Logistic Regression**, data preprocessing, visualization, and model evaluation.
 
-PassengerId
-Pclass
-Sex
-Age
-SibSp
-Parch
-Fare
-Embarked
-Survived (Target Variable)
-Libraries Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Jupyter Notebook
-Workflow
-Step 1: Load Dataset
+</div>
 
-The cleaned Titanic dataset was loaded using Pandas.
+---
 
-Step 2: Data Exploration
+# 📖 About the Project
 
-The dataset was analyzed to understand the available features.
+The **Titanic Survival Prediction** project is an end-to-end Machine Learning classification project built using **Python** and **Scikit-Learn**.
 
-Step 3: Data Preprocessing
+The objective is to predict whether a passenger survived the Titanic disaster by analyzing passenger information such as age, gender, ticket class, fare, and family details.
 
-Necessary preprocessing and feature selection were performed.
+This project demonstrates a complete Machine Learning workflow—from data loading and preprocessing to model training, prediction, and evaluation.
 
-Step 4: Train-Test Split
+---
 
-The dataset was divided into:
+# 🎯 Objectives
 
-Training Data: 80%
-Testing Data: 20%
-Step 5: Model Training
+* Build a Machine Learning Classification Model
+* Perform Data Exploration and Analysis
+* Train a Logistic Regression Model
+* Evaluate Model Performance
+* Visualize Results using a Confusion Matrix
+* Understand the End-to-End ML Pipeline
 
-A Logistic Regression model was trained using Scikit-learn.
+---
 
-Step 6: Prediction
+# 📂 Dataset
 
-Predictions were generated on the test dataset.
+**Dataset:** Titanic Dataset
 
-Step 7: Model Evaluation
+### Input Features
 
-The model performance was evaluated using:
+* PassengerId
+* Pclass
+* Sex
+* Age
+* SibSp
+* Parch
+* Fare
+* Embarked
 
-Accuracy Score
-Classification Report
+### Target Variable
+
+| Value | Meaning         |
+| ----- | --------------- |
+| 0     | Did Not Survive |
+| 1     | Survived        |
+
+---
+
+# 🛠️ Tech Stack
+
+* 🐍 Python
+* 📊 Pandas
+* 🔢 NumPy
+* 📈 Matplotlib
+* 🎨 Seaborn
+* 🤖 Scikit-Learn
+* 📓 Jupyter Notebook
+* 🌐 Git & GitHub
+
+---
+
+# ⚙️ Project Workflow
+
+```text
+Load Dataset
+      │
+      ▼
+Data Exploration
+      │
+      ▼
+Data Preprocessing
+      │
+      ▼
+Feature Selection
+      │
+      ▼
+Train-Test Split
+      │
+      ▼
+Logistic Regression
+      │
+      ▼
+Prediction
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
 Confusion Matrix
-Results
-Accuracy
+```
 
-73.18%
+---
 
-Evaluation Metrics
-Metric	Value
-Accuracy	73.18%
-Precision	0.74
-Recall	0.70
-F1-Score	0.72
+# 📊 Model Performance
 
-Classification Report
-Class	Precision	Recall	F1-Score
-0	0.72	0.90	0.80
-1	0.77	0.50	0.61
+| Metric    | Score        |
+| --------- | ------------ |
+| Accuracy  | ⭐ **73.18%** |
+| Precision | **0.74**     |
+| Recall    | **0.70**     |
+| F1 Score  | **0.72**     |
 
-Overall Accuracy: 73.18%
+---
 
-Conclusion
+# 📈 Confusion Matrix
 
-A Logistic Regression model was successfully implemented on the Titanic dataset. The model achieved an accuracy of 73.18% and demonstrated satisfactory classification performance. The project covers the complete Machine Learning workflow, including data loading, preprocessing, model training, prediction, evaluation, and visualization using a confusion matrix.
+<p align="center">
 
-GitHub Repository
+<img src="docs/confusion_matrix.png" width="600"/>
 
-Repository:
-https://github.com/kumariraunak-creator/Basic-ML-Model
+</p>
+
+---
+
+# 📑 Classification Report
+
+| Class | Precision | Recall | F1 Score |
+| ----- | --------- | ------ | -------- |
+| 0     | 0.72      | 0.90   | 0.80     |
+| 1     | 0.77      | 0.50   | 0.61     |
+
+---
+
+# 📁 Project Structure
+
+```text
+Basic-ML-Model
+│
+├── data/
+│   └── cleaned_dataset.csv
+│
+├── notebooks/
+│   └── ml_model_implementation.ipynb
+│
+├── docs/
+│   ├── confusion_matrix.png
+│   └── summary_report.pdf
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+# 🎓 Learning Outcomes
+
+During this project, I learned:
+
+* Data Cleaning
+* Data Visualization
+* Feature Selection
+* Logistic Regression
+* Model Evaluation
+* Confusion Matrix Analysis
+* Classification Report
+* Git & GitHub Workflow
+
+---
+
+# 🚀 Future Improvements
+
+* 🌳 Random Forest
+* ⚡ Decision Tree
+* 🚀 XGBoost
+* 📈 ROC Curve
+* 🤖 Hyperparameter Tuning
+* 🌐 Streamlit Deployment
+
+---
+
+# 👩‍💻 Author
+
+## **Raunak Kumari Gupta**
+
+🎓 **B.Tech – Computer Science Engineering (AI & ML)**
+
+💡 Passionate about **Machine Learning, Data Science, Artificial Intelligence, and Full-Stack Development**
+
+🔗 **GitHub:** https://github.com/kumariraunak-creator
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, please consider giving it a Star!
+
+**Thank you for visiting my repository ❤️**
+
+</div>
